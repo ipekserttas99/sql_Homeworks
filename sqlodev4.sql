@@ -1,7 +1,7 @@
 --1.SORU
 SELECT DISTINCT replacement_cost FROM film;
 --2.SORU
-SELECT DISTINCT replacement_cost FROM film;
+SELECT COUNT(DISTINCT replacement_cost) FROM film;
 --3.SORU
 SELECT COUNT(title) FROM film WHERE title LIKE 'T%' AND rating='G';
 --4.SORU
